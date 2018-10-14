@@ -50,12 +50,13 @@
                     
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/') }}" class="btn btn-default">Home</a></li>
+                    <li><a href="{{ url('/') }}" class="btn btn-default">Homekjflj</a></li>
                     @if (!Auth::guest())
                     <li><a href="{{ route('posts.create') }}" class="btn btn-default">New Article</a></li>
-                    <li><a href="{{ route('categories.create') }}" class="btn btn-default">Add Category</a></li>
+                    <li><a href="{{ route('categories.create') }}" class="btn btn-default">Add ategory</a></li>
                     <li><a href="{{ route('books.create') }}" class="btn btn-default">Add Book </a></li>
                     <li><a href="{{ route('register') }}" class="btn btn-default">Add User </a></li>
+                    <li><a href="{{ route('transactions.index') }}" class="btn btn-default">Transactions</a></li>
                          @endif
                     </ul>
 

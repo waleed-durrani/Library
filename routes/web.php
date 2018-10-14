@@ -33,3 +33,5 @@ Route::resource('posts', 'PostController');
 Route::resource('books', 'BookController');
 
 Route::resource('categories', 'CategoryController');
+
+Route::resource('transactions', 'TransactionController');
